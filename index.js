@@ -11,7 +11,7 @@ generateBtn.addEventListener('click', async () => {
     }
 
     try {
-        const response = await fetch('https://sasasaia.pythonanywhere.com/generate_qr', {
+        const response = await fetch('https://sharenetarchive1.pythonanywhere.com/generate_qr', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
